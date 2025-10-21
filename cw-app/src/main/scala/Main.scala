@@ -15,9 +15,9 @@ object Main {
     
     // Parse matrices - now we get raw RDDs
     println("\n1. Parsing Sparse Matrices...")
-    val matrixA = MatrixParser.parseSparseMatrix(spark, "src/main/data/SM_left.tsv")
-    val matrixB = MatrixParser.parseSparseMatrix(spark, "src/main/data/SM_right.tsv")
-    
+    val matrixA = COO_MatrixParser.parseMatrix(spark, "src/main/data/baseline_data/SM_1.tsv")
+    val matrixB = COO_MatrixParser.parseMatrix(spark, "src/main/data/baseline_data/SM_2.tsv")
+
     println(s"Matrix A: ${matrixA.count()} non-zero entries")
     println(s"Matrix B: ${matrixB.count()} non-zero entries")
     
@@ -29,7 +29,7 @@ object Main {
     
     // Sparse Matrix × Sparse Matrix Multiplication
     println("\n2. Sparse Matrix Multiplication (A × B)...")
-    val matrixResult = Operations.sparseMatrixMultiply(matrixA, matrixB)
+    val matrixResult = Operations.MatrixMultiply(matrixA, matrixB)
     println(s"Result: ${matrixResult.count()} non-zero entries")
     println("First 5 entries:")
     matrixResult.take(5).foreach { case MatrixEntry(r, c, v) =>
