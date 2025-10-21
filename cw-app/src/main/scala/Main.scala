@@ -56,6 +56,37 @@ object Main {
     //   println(s"  (${coords.mkString(", ")}) -> $v")
     // }
     
+  
+    // Frontend integration
+
+    // TODO: need to define args to take in user defined file paths and formats from the command line
+
+
+    // call frontend to validate which parsers and operations to use
+    val (leftParserString, rightParserString) = Frontend.main(args)
+
+    // Based on the returned strings from front end can do the relevant operations and parsers
+    // the clarifier value "dense" or "sparse" will serve as information later for optimisations in the data formats
+    if leftParserString == "matrix" && rightParserString == "denseVector" then
+      val matrix_A = COO_MatrixParser.parseMatrix(spark, leftOperandfilePath1)
+      val vector_x = COO_VectorParser.parseVector(spark, rightOperandfilePath2)
+      val mv_result = Operations.COO_MatrixVectorMultiply(matrix_A, vector_x)
+
+    else if leftParserString == "matrix" && rightParserString == "sparseVector" then
+      val matrix_A = COO_MatrixParser.parseMatrix(spark, leftOperandfilePath1)
+      val vector_x = COO_VectorParser.parseVector(spark, rightOperandfilePath2)
+      val mv_result = Operations.COO_MatrixVectorMultiply(matrix_A, vector_x)
+
+    else if leftParserString == "matrix" && rightParserString == "denseMatrix" then
+      val matrix_A = COO_MatrixParser.parseMatrix(spark, leftOperandfilePath1)
+      val matrix_B = COO_MatrixParser.parseDenseMatrix(spark, rightOperandfilePath2)
+      val mm_result = Operations.COO_MatrixMultiply(matrix_A, matrix_B)
+
+    else if leftParserString == "matrix" && rightParserString == "sparseMatrix" then
+      val matrix_A = COO_MatrixParser.parseMatrix(spark, leftOperandfilePath1)
+      val matrix_B = COO_MatrixParser.parseMatrix(spark, rightOperandfilePath2)
+      val mm_result = Operations.COO_MatrixMultiply(matrix_A, matrix_B)
+
     spark.stop()
   }
 }
