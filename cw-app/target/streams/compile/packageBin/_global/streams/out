@@ -1,29 +1,29 @@
-[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/agullinashllaku/semester_one/pdss/my-scala-app/target/scala-2.12/my-scala-app_2.12-1.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/agullinashllaku/semester_one/pdss/my-scala-app/PDSS/cw-app/target/scala-2.12/my-scala-app_2.12-1.0.jar ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	SparseEngine[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/agullinashllaku/semester_one/pdss/my-scala-app/target/scala-2.12/classes/SparseEngine[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/agullinashllaku/semester_one/pdss/my-scala-app/PDSS/cw-app/target/scala-2.12/classes/SparseEngine[0m
 [0m[[0m[0mdebug[0m] [0m[0m	SparseEngine/Main$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/agullinashllaku/semester_one/pdss/my-scala-app/target/scala-2.12/classes/SparseEngine/Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/agullinashllaku/semester_one/pdss/my-scala-app/PDSS/cw-app/target/scala-2.12/classes/SparseEngine/Main$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	SparseEngine/MatrixEntry$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/agullinashllaku/semester_one/pdss/my-scala-app/target/scala-2.12/classes/SparseEngine/MatrixEntry$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/agullinashllaku/semester_one/pdss/my-scala-app/PDSS/cw-app/target/scala-2.12/classes/SparseEngine/MatrixEntry$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	SparseEngine/MatrixParser$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/agullinashllaku/semester_one/pdss/my-scala-app/target/scala-2.12/classes/SparseEngine/MatrixParser$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/agullinashllaku/semester_one/pdss/my-scala-app/PDSS/cw-app/target/scala-2.12/classes/SparseEngine/MatrixParser$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	SparseEngine/TensorEntry$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/agullinashllaku/semester_one/pdss/my-scala-app/target/scala-2.12/classes/SparseEngine/TensorEntry$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/agullinashllaku/semester_one/pdss/my-scala-app/PDSS/cw-app/target/scala-2.12/classes/SparseEngine/TensorEntry$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	SparseEngine/Operations.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/agullinashllaku/semester_one/pdss/my-scala-app/target/scala-2.12/classes/SparseEngine/Operations.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/agullinashllaku/semester_one/pdss/my-scala-app/PDSS/cw-app/target/scala-2.12/classes/SparseEngine/Operations.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	SparseEngine/MatrixEntry.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/agullinashllaku/semester_one/pdss/my-scala-app/target/scala-2.12/classes/SparseEngine/MatrixEntry.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/agullinashllaku/semester_one/pdss/my-scala-app/PDSS/cw-app/target/scala-2.12/classes/SparseEngine/MatrixEntry.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	SparseEngine/TensorParser$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/agullinashllaku/semester_one/pdss/my-scala-app/target/scala-2.12/classes/SparseEngine/TensorParser$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/agullinashllaku/semester_one/pdss/my-scala-app/PDSS/cw-app/target/scala-2.12/classes/SparseEngine/TensorParser$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	SparseEngine/Operations$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/agullinashllaku/semester_one/pdss/my-scala-app/target/scala-2.12/classes/SparseEngine/Operations$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/agullinashllaku/semester_one/pdss/my-scala-app/PDSS/cw-app/target/scala-2.12/classes/SparseEngine/Operations$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	SparseEngine/TensorParser.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/agullinashllaku/semester_one/pdss/my-scala-app/target/scala-2.12/classes/SparseEngine/TensorParser.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/agullinashllaku/semester_one/pdss/my-scala-app/PDSS/cw-app/target/scala-2.12/classes/SparseEngine/TensorParser.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	SparseEngine/Main.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/agullinashllaku/semester_one/pdss/my-scala-app/target/scala-2.12/classes/SparseEngine/Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/agullinashllaku/semester_one/pdss/my-scala-app/PDSS/cw-app/target/scala-2.12/classes/SparseEngine/Main.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	SparseEngine/MatrixParser.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/agullinashllaku/semester_one/pdss/my-scala-app/target/scala-2.12/classes/SparseEngine/MatrixParser.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/agullinashllaku/semester_one/pdss/my-scala-app/PDSS/cw-app/target/scala-2.12/classes/SparseEngine/MatrixParser.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	SparseEngine/TensorEntry.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/agullinashllaku/semester_one/pdss/my-scala-app/target/scala-2.12/classes/SparseEngine/TensorEntry.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/agullinashllaku/semester_one/pdss/my-scala-app/PDSS/cw-app/target/scala-2.12/classes/SparseEngine/TensorEntry.class[0m
 [0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

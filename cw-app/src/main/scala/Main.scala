@@ -23,7 +23,11 @@ object Main {
     
     // Show some entries
     println("Matrix A sample entries:")
-    matrixA.take(5).foreach { case MatrixEntry(r, c, v) =>
+    matrixA.foreach { case MatrixEntry(r, c, v) =>
+      println(s"  ($r, $c) -> $v")
+    }
+    println("Matrix B sample entries:")
+    matrixB.foreach { case MatrixEntry(r, c, v) =>
       println(s"  ($r, $c) -> $v")
     }
     
@@ -32,7 +36,7 @@ object Main {
     val matrixResult = Operations.sparseMatrixMultiply(matrixA, matrixB)
     println(s"Result: ${matrixResult.count()} non-zero entries")
     println("First 5 entries:")
-    matrixResult.take(5).foreach { case MatrixEntry(r, c, v) =>
+    matrixResult.foreach { case MatrixEntry(r, c, v) =>
       println(s"  ($r, $c) -> $v")
     }
     
